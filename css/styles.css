@@ -73,7 +73,7 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
-    padding-top: 6rem;
+    padding-top: 8rem;
 }
 
 .hero::before {
@@ -96,14 +96,14 @@ body {
 }
 
 .profile-photo {
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid var(--accent-color);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: 3px solid var(--accent-color);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -114,9 +114,9 @@ body {
 }
 
 .hero-title {
-    font-size: clamp(1.5rem, 3.5vw, 2.5rem);
-    font-weight: 600;
-    margin-bottom: 0.75rem;
+    font-size: clamp(1.1rem, 2.5vw, 1.8rem);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
     background: linear-gradient(135deg, var(--accent-color), var(--success-color));
     -webkit-background-clip: text;
     background-clip: text;
@@ -125,14 +125,14 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--text-gray);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .hero-description {
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 1.25rem;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -438,25 +438,25 @@ body {
     }
     
     .hero {
-        padding-top: 4rem;
+        padding-top: 5rem;
     }
     
     .hero-title {
-        font-size: clamp(1.25rem, 5vw, 2rem);
+        font-size: clamp(1rem, 4vw, 1.5rem);
     }
     
     .hero-subtitle {
-        font-size: 1rem;
-    }
-    
-    .hero-description {
         font-size: 0.9rem;
     }
     
+    .hero-description {
+        font-size: 0.85rem;
+    }
+    
     .profile-photo {
-        width: 140px;
-        height: 140px;
-        margin-bottom: 1.5rem;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1.25rem;
     }
     
     .nav-links {
