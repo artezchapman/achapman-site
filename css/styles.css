@@ -29,7 +29,7 @@ body {
     background: rgba(15, 23, 42, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
-    padding: 0.75rem 0;
+    padding: 0.5rem 0;
     border-bottom: 1px solid rgba(6, 182, 212, 0.2);
 }
 
@@ -73,7 +73,7 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
-    padding-top: 4rem;
+    padding-top: 6rem;
 }
 
 .hero::before {
@@ -96,14 +96,14 @@ body {
 }
 
 .profile-photo {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid var(--accent-color);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -114,25 +114,25 @@ body {
 }
 
 .hero-title {
-    font-size: clamp(2rem, 4vw, 3rem);
-    font-weight: 700;
-    margin-bottom: 1rem;
+    font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+    font-weight: 600;
+    margin-bottom: 0.75rem;
     background: linear-gradient(135deg, var(--accent-color), var(--success-color));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--text-gray);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .hero-description {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -434,21 +434,29 @@ body {
 
 @media (max-width: 768px) {
     .nav {
-        padding: 0.5rem 0;
+        padding: 0.25rem 0;
     }
     
     .hero {
-        padding-top: 3rem;
+        padding-top: 4rem;
     }
     
     .hero-title {
-        font-size: clamp(1.75rem, 6vw, 2.5rem);
+        font-size: clamp(1.25rem, 5vw, 2rem);
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .hero-description {
+        font-size: 0.9rem;
     }
     
     .profile-photo {
-        width: 150px;
-        height: 150px;
-        margin-bottom: 1rem;
+        width: 140px;
+        height: 140px;
+        margin-bottom: 1.5rem;
     }
     
     .nav-links {
